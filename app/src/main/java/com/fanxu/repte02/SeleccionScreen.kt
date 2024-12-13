@@ -81,7 +81,8 @@ fun SeleccionScreen(navController: NavController) {
                 modifier = Modifier
                     .align(Alignment.CenterHorizontally)
                     .padding(top = 16.dp),
-                enabled = seleccionado != null
+                enabled = seleccionado != null,
+                shape = RoundedCornerShape(4.dp)
             ) {
                 Text("Entrar")
             }
