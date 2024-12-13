@@ -30,6 +30,8 @@ class MainActivity : ComponentActivity() {
                     ) {
                         composable(Routes.InicioScreen) { InicioScreen(navigationController) }
                         composable(Routes.SeleccionScreen) { SeleccionScreen(navigationController) }
+                        composable(Routes.NombreScreen) { NombreScreen(navigationController) }
+                        composable(Routes.MostrarScreen) { MostrarScreen(navigationController) }
                     }
                 }
             }
