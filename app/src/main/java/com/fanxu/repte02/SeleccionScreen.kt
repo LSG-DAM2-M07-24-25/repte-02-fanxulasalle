@@ -84,7 +84,7 @@ fun SeleccionScreen(navController: NavController) {
                 enabled = seleccionado != null,
                 shape = RoundedCornerShape(4.dp)
             ) {
-                Text("Entrar")
+                Text("Continuar")
             }
         }
     }
